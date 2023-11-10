@@ -21,7 +21,6 @@ namespace module8_dz1
             {
                 if (index >= 0 && index < data.Length)
                 {
-                    // Возвращаем текущее значение элемента массива
                     return data[index];
                 }
                 else
