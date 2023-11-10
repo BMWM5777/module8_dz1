@@ -11,15 +11,12 @@ namespace module8_dz1
         static void Main(string[] args)
         {
             indexator indexator1 = new indexator(5);
-
-            // Устанавливаем значения через индексатор
             indexator1[0] = 2;
             indexator1[1] = 3;
             indexator1[2] = 4;
             indexator1[3] = 5;
             indexator1[4] = 6;
 
-            // Получаем значения через индексатор и выводим их
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"indexator1[{i}] = {indexator1[i]}");
