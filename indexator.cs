@@ -32,8 +32,7 @@ namespace module8_dz1
             set
             {
                 if (index >= 0 && index < data.Length)
-                {
-                    // Возводим передаваемое значение в квадрат и устанавливаем его
+                {                    
                     data[index] = value * value;
                 }
                 else
